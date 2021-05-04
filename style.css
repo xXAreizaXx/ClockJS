@@ -1,0 +1,45 @@
+body {
+    background-image: url(Images/Fondo.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: 10px;
+    display: flex;
+    flex: 1;
+    min-width: 100vh;
+    align-items: center;
+}
+
+.clock {
+    width: 30rem;
+    padding: 10px;
+    height: 30rem;
+    border: 20px solid #fff;
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    border: 30px solid #600083;
+    box-shadow:  
+        5px 5px 9px #5a5a5a,
+        -5px -5px 9px #ffffff;
+}
+
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.flecha {
+    width: 50%;
+    height: 6px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    margin-top: 10px;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
